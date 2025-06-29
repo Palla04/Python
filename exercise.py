@@ -8,9 +8,9 @@ if(fname=="Tony" , age>30):
 
 # Calculator
 
-a=10 
-b=3
-s= input("Enter the operation : ")
+a = input("Enter the first num: ") 
+b = input("Enter the second num: ")
+s= input("Enter the operator (+,-,*,/,%): ")
 
 if s == '+':
     r = int(a)+int(b)
@@ -23,4 +23,4 @@ elif s == '/':
 elif s == '%':
     r = int(a)%int(b)
 
-print("For the Operation "+s," The result is "+str(r))
+print("a "+s," b The result is "+str(r))

@@ -1,2 +1,3 @@
-sum = first+second  #Concatenate two string
-# print("The Concatenation : "+sum)
+while i<=50:
+    print(i)
+    i += 1
